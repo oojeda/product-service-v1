@@ -31,7 +31,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: jpaezr/product-service-v1:latest
+          tags: oojeda/product-service-v1:latest
 
       # Paso 5: Cerrar sesión de Docker Hub
       - name: Log out from Docker Hub
