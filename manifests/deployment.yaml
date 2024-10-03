@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: jpaezr/product-service-v1:latest
+        image: oojeda/product-service-v1:latest
         ports:
         - containerPort: 3000
         envFrom:
